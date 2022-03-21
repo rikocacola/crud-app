@@ -1,0 +1,28 @@
+.post-wrap{
+  padding: 45px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.75);
+  margin-bottom: 45px;
+
+  .title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .body{
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .delete{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .edit{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+  }
+}

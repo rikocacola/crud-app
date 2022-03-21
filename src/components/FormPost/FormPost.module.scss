@@ -1,0 +1,42 @@
+.form-post{
+  padding: 50px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.75);
+  margin-bottom: 45px;
+
+  .form{
+
+    input{
+      padding: 10px;
+      margin-right: 20px;
+    }
+    button{
+      padding: 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      background-color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-post{
+    padding: 20px;
+  
+    .form{
+      display: flex;
+      flex-direction: column;
+  
+      input{
+        padding: 5px;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+      button{
+        padding: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+        background-color: white;
+      }
+    }
+  }
+}
